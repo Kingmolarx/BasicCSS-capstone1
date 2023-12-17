@@ -1,0 +1,201 @@
+body{
+    background-color: rgba(233, 126, 12, 0.224);
+    box-sizing: border-box;
+    padding: 1rem;
+    font-family: 'Kalnia', serif;
+    font-weight: 500;
+    line-height: 1.5;
+    
+}
+
+header{
+    height: 85vh;
+    background-image: linear-gradient(to right bottom, rgba(237, 152, 77, 0.6), rgba(69, 29, 3, 0.8)), url(assets/image/hdrimg.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 3px;
+    position: relative;
+}
+
+.header__text-box{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.heading-details{
+    text-align: center;
+    padding: 0 0;
+    margin: 0 0;
+
+    .heading-details--name{
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgb(193, 171, 171);
+    
+    }
+
+    .heading-details--name:hover{
+        transform: translateX(-4rem) scale(1.5);
+        transition: all .3s;
+    }
+
+    .heading-details--occupation{
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 0%;
+    color: rgb(193, 171, 171);
+
+    .fash{
+        text-decoration: underline;
+     }
+    }
+}
+
+.about-thepage{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.about-myself{
+    display: block;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 2rem;
+    color: rgb(109, 55, 16);
+}
+
+.about-myself p{
+    margin-bottom: 2rem;
+}
+
+.about-myself img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.skills{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    max-width: 50rem;
+   height: 500px;
+   gap: .2rem;
+   margin-top: 0;
+   box-shadow: 0 1rem 3rem rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.col-1-of-2--left {
+    height: 500px;
+    display: grid;
+    float: left;
+    width: calc((100% - 1rem) / 2);
+    justify-content: center;
+    align-content: center;
+}
+
+.working-img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.col-1-of-2--right {
+    height: 500px;
+    float: right;
+    width: calc((100% - 1rem) / 2);
+    text-align: center;
+}
+
+.col-1-of-2--right h2{
+    margin-top: 9rem;
+    margin-right: 3rem;
+}
+
+.col-1-of-2--right p{
+    margin-top: -1rem;
+    margin-right: 3rem;
+}
+
+.squirel{
+    border-radius: 50%;
+    height: 200px;
+}
+
+.second-skills{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.last-part{
+    width: 40%;
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(109, 55, 16);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color:rgb(240, 178, 92);
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(109, 55, 16);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-footer{
+text-decoration: none;
+margin: 1rem;
+color: white;
+}
+
+footer p{
+    color: rgb(240, 178, 92);
+    font-size: .75rem;
+}
+
+hr{
+ border: dotted #47470481 6px;
+ border-bottom: none;
+ width: 40%;
+ margin: 1rem 6rem;
+}
+
+h3{
+    color: rgb(165, 107, 66);
+}
